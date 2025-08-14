@@ -80,7 +80,7 @@ streamlit run main.py
 Once the app starts, it will automatically open in your default web browser at:
 ```
 http://localhost:8501
-```
+
 ---
 ✅ Now you’re all set!
 Upload a resume, paste a job description, and let the AI analyze your resume for job-fit and provide suggestions. 
