@@ -101,7 +101,6 @@ def extract_scores(text):
 
 
 
-# <--------- Starting the Work Flow ---------> 
 
 # Displays Form only if the form is not submitted
 if not st.session_state.form_submitted:
@@ -176,3 +175,4 @@ if st.session_state.form_submitted:
 
 
 # <-------------- End of the Work Flow --------------->
+
