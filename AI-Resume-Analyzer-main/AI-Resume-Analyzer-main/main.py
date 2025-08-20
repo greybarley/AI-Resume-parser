@@ -1,4 +1,4 @@
-import streamlit as st                            # For Web Interface (Front-End)
+import streamlit as st                            # For Web Interface Front-End
 from pdfminer.high_level import extract_text      # To Extract Text from Resume PDF
 from sentence_transformers import SentenceTransformer      # To generate Embeddings of text
 from sklearn.metrics.pairwise import cosine_similarity     # To get Similarity Score of Resume and Job Description
@@ -175,4 +175,5 @@ if st.session_state.form_submitted:
 
 
 # <-------------- End of the Work Flow --------------->
+
 
