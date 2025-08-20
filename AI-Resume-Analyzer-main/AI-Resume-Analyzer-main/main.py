@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer      # To generate Embeddi
 from sklearn.metrics.pairwise import cosine_similarity     # To get Similarity Score of Resume and Job Description
 from groq import Groq                             # API to use LLM's
 import re                                         # To perform Regular Expression Functions
-from dotenv import load_dotenv                    # Loading API Key from .env file
+from dotenv import load_dotenv                    # Loading API Key from .env fil
 import os
 
 
@@ -173,5 +173,6 @@ if st.session_state.form_submitted:
         icon=":material/download:",
         )
     
+
 
 # <-------------- End of the Work Flow --------------->
