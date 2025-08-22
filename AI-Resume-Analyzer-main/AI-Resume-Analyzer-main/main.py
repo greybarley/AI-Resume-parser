@@ -15,7 +15,7 @@ load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 
-#  Session States to store values 
+# Session States to store values 
 if "form_submitted" not in st.session_state:
     st.session_state.form_submitted = False
 
@@ -172,6 +172,7 @@ if st.session_state.form_submitted:
         icon=":material/download:",
         )
     
+
 
 
 
