@@ -51,7 +51,7 @@ def calculate_similarity_bert(text1, text2):
     embeddings1 = ats_model.encode([text1])
     embeddings2 = ats_model.encode([text2])
     
-    # Calculate cosine similarity without adding an extra list layer
+    # Calculate cosine similarity without adding an extra list layer 
     similarity = cosine_similarity(embeddings1, embeddings2)[0][0]
     return similarity
 
@@ -174,7 +174,7 @@ if st.session_state.form_submitted:
     
 
 
-# <-------------- End of the Work Flow --------------->
+
 
 
 
